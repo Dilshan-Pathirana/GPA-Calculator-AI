@@ -1,0 +1,20 @@
+# requirements.txt
+
+# GUI framework
+PySide6==6.7.2
+
+# Database ORM
+SQLAlchemy==2.0.32
+
+# For loading .env configs
+python-dotenv==1.0.1
+
+# Google Gemini API client
+google-generativeai==0.7.2
+
+# Pydantic for data validation (required by google-generativeai)
+pydantic==2.8.2
+pydantic-core==2.20.1
+
+# Optional: for async support if needed in the future
+greenlet==3.0.3
